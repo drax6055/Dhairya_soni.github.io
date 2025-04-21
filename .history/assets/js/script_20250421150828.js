@@ -123,10 +123,8 @@ for (let i = 0; i < filterBtn.length; i++) {
     lastClickedBtn = this;
 
   });
+
 }
-
-
-
 
 
 // contact form variables

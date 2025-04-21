@@ -125,8 +125,7 @@ for (let i = 0; i < filterBtn.length; i++) {
   });
 }
 
-
-
+let lastClickedBtn1  =  filterBtn[0];
 
 
 // contact form variables

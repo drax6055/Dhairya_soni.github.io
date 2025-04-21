@@ -125,9 +125,7 @@ for (let i = 0; i < filterBtn.length; i++) {
   });
 }
 
-
-
-
+let lastClickedBtn  =  filterBtn[0];;
 
 // contact form variables
 const form = document.querySelector("[data-form]");

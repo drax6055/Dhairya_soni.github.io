@@ -125,7 +125,10 @@ for (let i = 0; i < filterBtn.length; i++) {
   });
 }
 
+let lastClickedBtn1  =  filterBtn[0];
 
+for (let i = 0; i < filterBtn.length; i++) {
+  
 
 
 
