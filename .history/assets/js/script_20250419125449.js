@@ -7,14 +7,7 @@ const elementToggleFunc = function (elem) {
   elem.classList.toggle("active");
 }
 
-document.getElementById("downloadResumeBtn").addEventListener("click", function () {
-  const link = document.createElement("a");
-  link.href = "./assets/resume.pdf"; 
-  link.download = "resume.pdf"; 
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-});
+
 
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");

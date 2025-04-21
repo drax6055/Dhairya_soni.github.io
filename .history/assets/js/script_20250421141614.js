@@ -9,8 +9,8 @@ const elementToggleFunc = function (elem) {
 
 document.getElementById("downloadResumeBtn").addEventListener("click", function () {
   const link = document.createElement("a");
-  link.href = "./assets/resume.pdf"; 
-  link.download = "resume.pdf"; 
+  link.href = "./assets/resume.pdf"; // Update path if needed
+  link.download = "resume.pdf"; // Optional: name of the downloaded file
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
