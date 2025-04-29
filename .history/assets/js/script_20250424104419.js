@@ -186,14 +186,3 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
-
-document.querySelectorAll('.lightbox').forEach(link => {
-  link.addEventListener('click', function(e) {
-    e.preventDefault();
-    const imgSrc = this.querySelector('img').getAttribute('src');
-    const modal = document.getElementById('lightboxModal');
-    const modalImg = document.getElementById('lightboxImg');
-    modalImg.src = imgSrc;
-    modal.classList.add('active');
-  });
-});
